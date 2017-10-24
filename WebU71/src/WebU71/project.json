@@ -1,4 +1,4 @@
-﻿{
+{
   "userSecretsId": "aspnet5-WebU71-4b8392cd-4576-4433-96af-5f2318acc369",
   "version": "1.0.0-*",
   "compilationOptions": {
@@ -34,7 +34,11 @@
   },
 
   "frameworks": {
-    "dnx451": { },
+    "dnx451": {
+      "dependencies": {
+        "NDbUnit.SqlLite": "1.6.8"
+      }
+    },
     "dnxcore50": { }
   },
 
